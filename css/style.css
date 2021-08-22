@@ -1,0 +1,716 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-part {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {}
+
+.nav-part {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    padding: 35px 0px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 15px;
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+    font-family: -webkit-pictograph;
+    font-size: 17px;
+}
+nav ul li:hover {
+    color: black;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+nav ul li a {
+    
+}
+
+/*=========== section-i start here =========== */
+
+.section-i {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.feature-part {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.left-part {
+    display: flex;
+    width: 45%;
+}
+
+.left-part .text_area {
+    width: 100%;
+    margin-top: 90px;
+    height: 605px;
+}
+
+.left-part .text_area h1 {
+    font-size: 65px;
+    font-weight: 400;
+}
+
+.left-part .text_area h4 {
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.left-part .text_area span {
+    padding-top: 0px;
+}
+
+.left-part .text_area p {
+    color: #75797D;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 40px;
+    line-height: 25px;
+    width: 99%;
+}
+
+.left-part .text_area button {
+    margin-top: 30px;
+    background: black;
+    outline: none;
+    border: none;
+    padding: 15px 43px;
+    border-radius: 3px;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.left-part .text_area button:hover {
+    
+    color: #75797D;
+    transition: 0.3s;
+}
+
+.right-part {
+    width: 51%;
+}
+
+.right-part .image-area {}
+
+.right-part .image-area img {}
+
+/*=========== section-i end here =========== */
+
+/*=========== section-ii start here =========== */
+
+.section-ii {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 380px;
+    background: #FAFAFA;
+    margin-top: -100px;
+    padding-top: 144px;
+}
+
+.buy-the-book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.buy-the-book .text-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buy-the-book .text-area h1 {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.buy-the-book .text-area p {
+    width: 57%;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #75797D;
+    margin-bottom: 5px;
+}
+
+.buy-the-book .buy-the-book span {}
+
+.buy-the-book .select-area {
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+}
+
+.buy-the-book .select-area ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+ul {}
+
+.buy-the-book .select-area ul li {
+    width: 20%;
+    text-align: center;
+    background: black;
+    padding: 15px 14px;
+    margin: 10px 8px;
+    cursor: pointer;
+}
+
+.buy-the-book .select-area ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+/*=========== section-ii end here =========== */
+
+/*=========== section-iii start here =========== */
+
+.section-iii {
+    width: 100%;
+    height: 650px;
+    background: #F7F7F7;
+}
+
+.section-iii .About {
+    width: 80%;
+    margin: auto;
+    border-top: solid 1px #E0E0E0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.section-iii .About .left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    align-items: center;
+}
+
+.section-iii .About .left .image-area {}
+
+.section-iii .About .left .image-area img {}
+
+.section-iii .About .middle {
+    width: 1%;
+    border-left: 1px solid black;
+    height: 190px;
+    margin-top: 555px;
+    position: absolute;
+    left: 50%;
+}
+
+.section-iii .About .middle p {}
+
+.section-iii .About .right {
+    width: 45%;
+    padding-top: 165px;
+}
+
+.section-iii .About .right .text-area {}
+
+.section-iii .About .right .text-area h1 {
+    font-size: 45px;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+
+.section-iii .About .right .text-area h4 {
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.section-iii .About .right .text-area p {
+    font-size: 20px;
+    color: #75797D;
+    margin-bottom: 30px;
+}
+
+.section-iii .About .right .text-area button {
+    border: none;
+    background: transparent;
+}
+
+.section-iii .About .right .text-area button a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/*=========== section-iii end here =========== */
+
+/*=========== section-iv start here =========== */
+
+.section-iv {
+    width: 100%;
+    margin-top: 100px;
+    height: 400px;
+}
+
+.about-vitor-hanse {
+    width: 60%;
+    margin: auto;
+    padding-top: 88px;
+    position: relative;
+}
+
+.about-vitor-hanse .text-area {}
+
+.about-vitor-hanse .text-area h1 {
+    font-size: 33px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.about-vitor-hanse .text-area h5 {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.about-vitor-hanse .text-area .img-i {
+    position: absolute;
+    width: 115px;
+    top: 9%;
+    left: 18%;
+    opacity: 0.1;
+}
+
+.about-vitor-hanse .text-area .img-ii {
+    position: absolute;
+    width: 115px;
+    right: 21%;
+    bottom: 11%;
+    opacity: 0.1;
+}
+
+.rating-star-area {}
+
+.rating-star-area ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.rating-star-area ul li {}
+
+.rating-star-area ul li i {
+    color: #F0AD4E;
+    margin-top: 30px;
+}
+
+/*=========== section-iv end here =========== */
+
+/*=========== section-v start here =========== */
+
+.section-v {
+    height: 975px;
+}
+
+.section-v .banner-part {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+.section-v .banner-part .banner-image {
+    display: flex;
+    justify-content: center;
+}
+
+.section-v .banner-part .banner-image .front-image {
+    position: absolute;
+    top: 10%;
+}
+
+.section-v .banner-part .banner-image .front-image img {
+    /* position: absolute; */
+}
+
+.section-v .banner-part .banner-image .background-i {
+    position: relative;
+    opacity: 0.3;
+}
+
+.section-v .banner-part .price-area {
+    display: flex;
+    margin-top: 140px;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.section-v .banner-part .price-area .price-i {
+    width: 15%;
+}
+
+.section-v .banner-part .price-area .price-i span {}
+
+.section-v .banner-part .price-area .price-i h1 {
+    margin-top: 29px;
+    font-weight: 100;
+    font-size: 29px;
+}
+
+.section-v .banner-part .price-area .price-i p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #75797D;
+}
+
+.section-v .banner-part .price-area .price-i h4 {}
+
+.section-v .banner-part .price-area .price-i h4 a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+/*================== section-v end here ================== */
+
+/*=========== section-vi start here =========== */
+
+.section-vi {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 640px;
+}
+
+.section-vi .more {
+    width: 90%;
+    align-items: center;
+    border-top: solid 1px #E0E0E0;
+    padding-top: 100px;
+    margin: auto;
+}
+
+.section-vi .more .text-area {
+    text-align: center;
+    width: 100%;
+}
+
+.section-vi .more .text-area h1 {
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.section-vi .more .text-area p {
+    width: 45%;
+    margin: auto;
+    font-size: 18px;
+    color: #75797D;
+    margin-bottom: 20px;
+}
+
+.section-vi .more .text-area span {}
+
+.section-vi .more .book-area {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.section-vi .more .book-area .books {
+    width: 30%;
+}
+
+.section-vi .more .book-area .books img {}
+
+.section-vi .more .book-area .books .text-area-ii {
+    width: 80%;
+    margin: auto;
+}
+
+.section-vi .more .book-area .books .text-area-ii h1 {
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+
+.section-vi .more .book-area .books .text-area-ii h6 {
+    font-size: 23px;
+    font-weight: 100;
+}
+
+.section-vi .more .book-area .books .text-area-ii span {}
+
+.section-vi .more .book-area .books .text-area-ii p {
+    margin-top: 15px;
+    color: #75797D;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.section-vi .more .book-area .books .text-area-ii button {
+    background: transparent;
+    border: none;
+}
+
+.section-vi .more .book-area .books .text-area-ii button a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.color-sec {
+    width: 100%;
+    height: 430px;
+    background: #F7F7F7;
+}
+
+/*================== section-vi end here ================== */
+
+/*================== section-vii start here ================== */
+
+.section-vii {
+    width: 100%;
+    display: flex;
+    background: #1C1E24;
+    height: 500px;
+    justify-content: center;
+}
+
+.section-vii .newsletter {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.section-vii .newsletter .about-victor {
+    width: 30%;
+}
+
+.section-vii .newsletter .about-victor h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.section-vii .newsletter .about-victor p {
+    color: #72848B;
+    font-size: 18px;
+}
+
+.section-vii .newsletter .upcoming-event {
+    width: 30%;
+}
+
+.section-vii .newsletter .upcoming-event .h1 {
+    color: white;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.section-vii .newsletter .upcoming-event .h2 {
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 100;
+    font-size: 21px;
+}
+
+.section-vii .newsletter .upcoming-event p {
+    color: #72848B;
+    border-bottom: 1px solid white;
+    padding-bottom: 12px;
+    margin-bottom: 35px;
+    font-size: 18px;
+}
+
+.section-vii .newsletter .upcoming-event .p3 {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.section-vii .newsletter .subscribe {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-vii .newsletter .subscribe h1 {
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 100;
+}
+
+.section-vii .newsletter .subscribe input {
+    padding: 15px 10px;
+    margin-bottom: 15px;
+}
+
+.section-vii .newsletter .subscribe input::placeholder {}
+
+.section-vii .newsletter .subscribe button {
+    width: 45%;
+    background: black;
+    border: none;
+    padding: 16px 1px;
+    border-radius: 2px;
+}
+
+.section-vii .newsletter .subscribe button a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+/*================== section-vii end here ================== */
+
+/*================== footer part start here ================== */
+
+footer {
+    background: black;
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+
+.footer-content {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content .left-content {
+    display: flex;
+    width: 25%;
+    justify-content: flex-start;
+}
+
+.footer-content .left-content p {
+    color: #72848B;
+    font-size: 19px;
+}
+
+.footer-content .right-content {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content .right-content ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-content .right-content ul li {
+    list-style: none;
+    /* justify-content: space-around; */
+}
+
+.footer-content .right-content ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #72848B;
+}
+
+/*================== footer part start here ================== */
+
+/* ================== hover effect part start here ================== */
+
+nav ul li a:hover {
+    color: black;
+}
+
+.left-part .text_area button a:hover {
+    color: #72848B;
+}
+
+.buy-the-book .select-area ul li a:hover {
+    color: #72848B;
+}
+
+.section-iii .About .right .text-area button a:hover {
+    color: #72848B;
+}
+
+.section-v .banner-part .price-area .price-i h4 a:hover {
+    color: #72848B;
+}
+
+.section-vi .more .book-area .books .text-area-ii button a:hover {
+    color: #72848B;
+}
+
+.section-vii .newsletter .subscribe button a:hover {
+    color: #72848B;
+    transition: 0.3s;
+}
+
+.footer-content .right-content ul li a:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+/* ================== hover effect part end here ================== */
